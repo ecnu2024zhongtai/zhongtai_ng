@@ -22,12 +22,17 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "types": ["amap-js-api"],
+    // "paths": {
+    //   "amap-js-api": ["node_modules/amap-js-api/dist/amap-js-api.d.ts"]
+    // }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
+  "include": ["src/**/*.ts", "src/global.d.ts"]
 }
