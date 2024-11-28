@@ -1,11 +1,12 @@
 # ZhongtaiNg
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+中台项目前端
 
 ## start project
 
 前提：
 node 22 (建议使用nvm管理node版本)
+
 angular 18
 
 1. npm install
