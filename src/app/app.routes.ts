@@ -8,6 +8,8 @@ import { GridmapComponent } from './components/gridmap.component/gridmap.compone
 import { TopareaComponent } from './components/toparea.component/toparea.component';
 import { TaxiComponent } from './components/taxi.component/taxi.component';
 import { Top10AreaComponent } from './components/top10area.component/top10area.component';
+import { DemandComponent } from './components/demand.component/demand.component';
+import { TracemapComponent } from './components/tracemap.component/tracemap.component';
 
 export const routes: Routes = [
     { path:'', component: HomeComponent},
@@ -17,5 +19,7 @@ export const routes: Routes = [
     { path:'gridmap', component: GridmapComponent},
     { path:'toparea', component: TopareaComponent},
     { path:'taxi', component: TaxiComponent},
-    { path:'top10area', component: Top10AreaComponent}
+    { path:'top10area', component: Top10AreaComponent},
+    { path:'demand', component: DemandComponent},
+    { path:'tracemap', component: TracemapComponent},
 ];
