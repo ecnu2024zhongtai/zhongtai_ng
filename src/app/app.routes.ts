@@ -7,6 +7,7 @@ import { HeatmapComponent } from './components/heatmap.component/heatmap.compone
 import { GridmapComponent } from './components/gridmap.component/gridmap.component';
 import { TopareaComponent } from './components/toparea.component/toparea.component';
 import { TaxiComponent } from './components/taxi.component/taxi.component';
+import { Top10AreaComponent } from './components/top10area.component/top10area.component';
 
 export const routes: Routes = [
     { path:'', component: HomeComponent},
@@ -16,4 +17,5 @@ export const routes: Routes = [
     { path:'gridmap', component: GridmapComponent},
     { path:'toparea', component: TopareaComponent},
     { path:'taxi', component: TaxiComponent},
+    { path:'top10area', component: Top10AreaComponent}
 ];
