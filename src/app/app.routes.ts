@@ -6,6 +6,7 @@ import { DriverlineComponent } from './components/driverline.component/driverlin
 import { HeatmapComponent } from './components/heatmap.component/heatmap.component';
 import { GridmapComponent } from './components/gridmap.component/gridmap.component';
 import { TopareaComponent } from './components/toparea.component/toparea.component';
+import { TaxiComponent } from './components/taxi.component/taxi.component';
 
 export const routes: Routes = [
     { path:'', component: HomeComponent},
@@ -13,5 +14,6 @@ export const routes: Routes = [
     { path:'driverline', component: DriverlineComponent},
     { path:'heatmap', component: HeatmapComponent},
     { path:'gridmap', component: GridmapComponent},
-    { path:'toparea', component: TopareaComponent}
+    { path:'toparea', component: TopareaComponent},
+    { path:'taxi', component: TaxiComponent},
 ];

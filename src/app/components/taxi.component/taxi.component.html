@@ -1,0 +1,13 @@
+<h1>Taxi</h1>
+<div class="input-group">
+    <label for="latitude">纬度:</label>
+    <input type="text" id="latitude" value="45.803775" (change)="initMap()">
+</div>
+<div class="input-group">
+    <label for="longitude">经度:</label>
+    <input type="text" id="longitude" value="126.534967" (change)="initMap()">
+</div>
+<!-- <button onclick="initMap()">显示用户位置</button> -->
+<button (click)="dispatchTaxi()">Taxi</button>
+<div id="map"></div>
+<div id="info"></div>

@@ -16,7 +16,7 @@ interface CustomPolylineOptions extends L.PolylineOptions {
 })
 export class TopareaComponent {
     
-    private baseurl = 'http://localhost:8005';
+    private baseurl = 'http://law.conetop.cn:8005';
     private currentNumber = 8;
     private map!: L.Map;
 
