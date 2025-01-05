@@ -12,7 +12,7 @@ import { DemandComponent } from './components/demand.component/demand.component'
 import { TracemapComponent } from './components/tracemap.component/tracemap.component';
 
 export const routes: Routes = [
-    { path:'', component: HomeComponent},
+    { path:'', component: Top10AreaComponent},
     { path:'gaode', component: GaodeComponent},
     { path:'driverline', component: DriverlineComponent},
     { path:'heatmap', component: HeatmapComponent},

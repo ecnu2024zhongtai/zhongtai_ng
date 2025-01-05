@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['tracemap.component.css']
 })
 export class TracemapComponent implements OnInit, AfterViewInit {
-    baseurl = "http://law.conetop.cn:8004"
+    baseurl = "http://law.conetop.cn:8005"
     constructor(private httpClient: HttpClient) { }
 
     ngOnInit() {
