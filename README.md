@@ -1,6 +1,9 @@
 # ZhongtaiNg
-
 中台项目前端
+
+对应后端项目：[backend](https://github.com/ecnu2024zhongtai/backend)
+
+
 
 里面的高德KEY后面会删除，请自行前往高德申请。
 
